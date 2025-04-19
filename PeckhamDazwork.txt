@@ -64,3 +64,15 @@ most_common = all_counted.most_common(10)
 print(f"These are the top 10 : {most_common}")
 # Top 10 created
 # ignore the one that only counted letters.
+
+# The actual answer is
+These are the top 10 : [('the', 45), 
+('and', 44), 
+('he', 35), 
+('to', 30), 
+('a', 28), 
+('was', 24), 
+('peter', 23), 
+('in', 15), 
+('but', 15), 
+('his', 15)]
