@@ -1,0 +1,66 @@
+import string
+import collections
+
+# Made sure to open the file locally and see if it works
+file_work = "beatrix_potter_the_story_of_a_fierce_bad_rabbit.txt" # the file txt file
+try: # Used try to see if this worked
+    with open(file_work, "r") as f:  # i opened the file so i can read 
+        content = f.read()  # created a variable called content so i can use it with the read method
+    print("--- file content ---") # This is just to space things out
+    print(content)   # This so i can print out the content
+    print("--------------------") # finshing of the print.
+except FileNotFoundError:  # Then used the file not found class
+    print(f"File is not found: {file_work}")
+except Exception as e:  # Used the exception class for errors
+    print(f"There is a error: {e}")
+
+# Looking for a way to find a string.
+try:
+    with open(file_work, "r", encoding = "utf-8") as f:  # opened the file to read using utf - 8 
+        file_content_string = f.read()   # Created a variable to read
+    print(f"This is this: {type(file_content_string)}") # Used the type function so i can see if it is a string
+except FileNotFoundError:  # checked if there is a file error
+    print(f"This file is not found: {file_work}") 
+except UnicodeDecodeError: # checked if there is a unicode error
+    print(f"This is a unicode error")
+    print("You can try a differnt unicode number")
+except Exception as e: # if there is any more problems then error
+    print(f"This is an error: {e}")
+
+file_content_split = file_content_string.split() # Then i made it into a list
+print(file_content_split)
+
+# what i used below was for taking out the punctuation
+translator = str.maketrans("","", string.punctuation) 
+clean_story = file_content_string.translate(translator)
+print(clean_story)
+
+# i then split it after so i can see if punctuation is gone
+clean_story_split = clean_story.split()
+print(clean_story_split)
+
+# for me to actually complete the task i have to have it lowercase
+clean_story_update = clean_story.lower()
+print(clean_story_update)
+
+# made a new variable and used the collections library so i can count the words
+word_to_count = clean_story_update
+words_counted = collections.Counter(word_to_count)
+print(f"These are all the words counted: {words_counted}")
+
+# This only counted the letters which is not what i want
+words_counted = collections.Counter(word_to_count)
+print(f"These are all the words counted: {words_counted}")
+### This is not correct.
+
+# This counted the words
+words_to_count = word_to_count
+words = words_to_count.split()
+all_counted = collections.Counter(words)
+print(f"These are all the words counted: {all_counted}")
+
+# Used most common function inside the collection module 
+most_common = all_counted.most_common(10)
+print(f"These are the top 10 : {most_common}")
+# Top 10 created
+# ignore the one that only counted letters.
