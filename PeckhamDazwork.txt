@@ -65,7 +65,7 @@ print(f"These are the top 10 : {most_common}")
 # Top 10 created
 # ignore the one that only counted letters.
 
-# The actual answer is
+# The actual answer is printed out.
 These are the top 10 : [('the', 45), 
 ('and', 44), 
 ('he', 35), 
@@ -76,3 +76,141 @@ These are the top 10 : [('the', 45),
 ('in', 15), 
 ('but', 15), 
 ('his', 15)]
+
+# Task 4 replace some of the most popular words
+>>> clean_story_alt = clean_story_update
+# so i turned peters name to poop
+>>> clean_story_alt = clean_story_update.replace("peter", "poop")
+
+once upon a time there were four little rabbits and their names
+were
+
+          flopsy
+       mopsy
+   cottontail
+and poop
+
+they lived with their mother in a sandbank underneath the root of a
+very big firtree
+
+now my dears said old mrs rabbit one morning you may go into
+the fields or down the lane but dont go into mr mcgregors garden
+your father had an accident there he was put in a pie by mrs
+mcgregor
+
+now run along and dont get into mischief i am going out
+
+then old mrs rabbit took a basket and her umbrella and went through
+the wood to the bakers she bought a loaf of brown bread and five
+currant buns
+
+flopsy mopsy and cottontail who were good little bunnies went
+down the lane to gather blackberries
+
+but poop who was very naughty ran straight away to mr mcgregors
+garden and squeezed under the gate
+
+first he ate some lettuces and some french beans and then he ate
+some radishes
+
+and then feeling rather sick he went to look for some parsley
+
+but round the end of a cucumber frame whom should he meet but mr
+mcgregor
+
+mr mcgregor was on his hands and knees planting out young cabbages
+but he jumped up and ran after poop waving a rake and calling out
+stop thief
+
+poop was most dreadfully frightened he rushed all over the garden
+for he had forgotten the way back to the gate
+
+he lost one of his shoes among the cabbages and the other shoe
+amongst the potatoes
+
+after losing them he ran on four legs and went faster so that i
+think he might have got away altogether if he had not unfortunately
+run into a gooseberry net and got caught by the large buttons on his
+jacket it was a blue jacket with brass buttons quite new
+
+poop gave himself up for lost and shed big tears but his sobs were
+overheard by some friendly sparrows who flew to him in great
+excitement and implored him to exert himself
+
+mr mcgregor came up with a sieve which he intended to pop upon the
+top of poop but poop wriggled out just in time leaving his jacket
+behind him
+
+and rushed into the toolshed and jumped into a can it would have
+been a beautiful thing to hide in if it had not had so much water in it
+
+mr mcgregor was quite sure that poop was somewhere in the
+toolshed perhaps hidden underneath a flowerpot he began to turn
+them over carefully looking under each
+
+presently poop sneezedkertyschoo mr mcgregor was after him in
+no time
+
+and tried to put his foot upon poop who jumped out of a window
+upsetting three plants the window was too small for mr mcgregor and
+he was tired of running after poop he went back to his work
+
+poop sat down to rest he was out of breath and trembling with
+fright and he had not the least idea which way to go also he was
+very damp with sitting in that can
+
+after a time he began to wander about going lippitylippitynot
+very fast and looking all round
+
+he found a door in a wall but it was locked and there was no room
+for a fat little rabbit to squeeze underneath
+
+an old mouse was running in and out over the stone doorstep carrying
+peas and beans to her family in the wood poop asked her the way to
+the gate but she had such a large pea in her mouth that she could not
+answer she only shook her head at him poop began to cry
+
+then he tried to find his way straight across the garden but he
+became more and more puzzled presently he came to a pond where mr
+mcgregor filled his watercans a white cat was staring at some
+goldfish she sat very very still but now and then the tip of her
+tail twitched as if it were alive poop thought it best to go away
+without speaking to her he had heard about cats from his cousin
+little benjamin bunny
+
+he went back towards the toolshed but suddenly quite close to him
+he heard the noise of a hoescrrritch scratch scratch scritch
+poop scuttered underneath the bushes but presently as nothing
+happened he came out and climbed upon a wheelbarrow and peeped over
+the first thing he saw was mr mcgregor hoeing onions his back was
+turned towards poop and beyond him was the gate
+
+poop got down very quietly off the wheelbarrow and started running
+as fast as he could go along a straight walk behind some
+blackcurrant bushes
+
+mr mcgregor caught sight of him at the corner but poop did not
+care he slipped underneath the gate and was safe at last in the wood
+outside the garden
+
+mr mcgregor hung up the little jacket and the shoes for a scarecrow
+to frighten the blackbirds
+
+poop never stopped running or looked behind him till he got home to
+the big firtree
+
+he was so tired that he flopped down upon the nice soft sand on the
+floor of the rabbithole and shut his eyes his mother was busy
+cooking she wondered what he had done with his clothes it was the
+second little jacket and pair of shoes that poop had lost in a
+fortnight
+
+i am sorry to say that poop was not very well during the evening
+
+his mother put him to bed and made some camomile tea and she gave a
+dose of it to poop
+
+one tablespoonful to be taken at bedtime
+
+but flopsy mopsy and cottontail had bread and milk and
+blackberries for supper
